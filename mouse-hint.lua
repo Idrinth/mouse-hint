@@ -7,6 +7,7 @@ function MouseHint.OnInitialize()
     CreateWindow("MouseHint", true)
     DynamicImageSetTexture("MouseHint", "mouse_marker", 0,0)
     WindowSetShowing("MouseHint", true)
+    WindowSetScale("MouseHint", 0.3)
 end
 
 function MouseHint.OnUpdate(elapsed)

@@ -1,11 +1,11 @@
 <Interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Assets>
-    <Texture name="mouse_marker" file="mark_arrow_down.dds" />
+    <Texture name="mouse_marker" file="icon.dds" />
   </Assets>
     <Windows>
     	<DynamicImage name="MouseHint" layer="background" handleinput="false">
             <Size>
-                <AbsPoint x="100" y="100" />
+                <AbsPoint x="300" y="300" />
             </Size>
             <Anchors/>
             <Windows/>
